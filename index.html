@@ -18,6 +18,10 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body id="top">
@@ -148,7 +152,6 @@
           <h2 class="h1 hero-title"></h2>
 
           <p class="hero-text">
-            "Explore The Magic Of Janakpur – Where Ancient Spirituality Meets Vibrant Culture. Immerse Yourself In The Birthplace Of Goddess Sita, Discover Ornate Temples, And Savor The Rich Tapestry Of Local Traditions. Let Our Website Be Your Guide To An Unforgettable Adventure In This Enchanting City. Your Journey To Janakpur Begins Here."
           </p>
 
         
@@ -156,7 +159,308 @@
         </div>
       </section>
 
+      <!--- sEARCH AND CALCULATION -->
+
+      <section class="tour-search">
+
+    
+
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Select Destination*</label>
+
+            <!--  <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field"> --> 
+                <select name="destination" id="destination"   class="select-field" required placeholder="Select Destination">
+                </select>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+      <!-- Popiler destination section-->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+        
+          <h2 class="h2 section-title">Popular destination</h2>
+
+          <p class="section-text">
+            Go beyond the usual tourist attractions and highlight hidden spots, local haunts, and lesser-known experiences.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.png" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+               
+
+                  <p class="card-subtitle">
+                    <a href="#">Nepal</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kathmandu</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Kathmandu: Majestic Landscapes, Ancient Temples, Vibrant Culture Beckon Explorers."
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.png" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <p class="card-subtitle">
+                    <a href="#">Nepal</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Pokhara</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Pokhara: Serene Lakes, Himalayan Vistas, And Adventure Await You."
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.png" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+           
+
+                  <p class="card-subtitle">
+                    <a href="#">Nepal</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Annapurna</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Annapurna: Majestic Peaks, Trekking Paradise, Nature's Grand Masterpiece."
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">More destintion</button>
+
+        </div>
+      </section>
+
+ <!--- #GALLERY  -->
+
+ <section class="gallery" id="gallery">
+  <div class="container">
+
+    <p class="section-subtitle">Photo Gallery</p>
+
+    <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+    <p class="section-text">
+      "Wanderlust Diaries: A Glimpse into the World Through Traveler Photos"
+      
+    </p>
+
+    <ul class="gallery-list">
+
+      <li class="gallery-item">
+        <figure class="gallery-image">
+          <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+        </figure>
+      </li>
+
+      <li class="gallery-item">
+        <figure class="gallery-image">
+          <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+        </figure>
+      </li>
+
+      <li class="gallery-item">
+        <figure class="gallery-image">
+          <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+        </figure>
+      </li>
+
+      <li class="gallery-item">
+        <figure class="gallery-image">
+          <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+        </figure>
+      </li>
+
+      <li class="gallery-item">
+        <figure class="gallery-image">
+          <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+        </figure>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+  <!--- #FOOTER  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Janakpur: Journey to the heart of faith.
+          </p>
+
+        </div>
+
+    
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Feel Free to cntact us, Just send a Email !!
+          </p>
+
+          <form action="" class="form-wrapper">
+           
+            
+              <input type="text" name="tName" class="input-field" placeholder="Enter Your Name Here" required>
+              <input type="text" name="Message" class="input-field" placeholder="Type Your Message Here" required>
+              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+            
+            
+            <button type="submit" class="btn btn-secondary">Contect Us</button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">SISTC</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
     </article>
 </main>
 
+
+
+<script>
+  const priceList = ["Sri Lanka","India","Singapora","Thailand","Bali"]
+  debugger;
+  const priceSelect = document.querySelector("#destination");
+
+  // Task 1: Use a for loop to add options to the price select element.
+for (let index = 0; index < priceList.length; index++) {
+      const Pricelist = document.createElement("option");
+      Pricelist.value = priceList[index];
+      Pricelist.text = `$${priceList[index]}`;
+      priceSelect.appendChild(Pricelist); 
+  } 
+
+  // Task 2: Complete this function to calculate the total price.
+  function calculateTotal() {
+      const selectedPrice = priceSelect.value;
+      const quantity = document.querySelector("#quantity").value;
+      const total = selectedPrice * quantity;
+      document.querySelector("#result").innerHTML = `Total: $${total}`;
+  }
+</script>
+
 </body>
+
+
