@@ -1,217 +1,243 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-     <!--- favicon -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SISTC - Travel agency</title>
+  <meta name="description" content="Get personalized travel recommendations from our experienced agents. Book your dream vacation today and let us handle the rest!">
+  <meta name="keywords" content="travel agents, personalized travel recommendations, dream vacation, customized travel solutions">
+
+
+
+  <!--- favicon -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!--- custom css link -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-      <!--- google font link -->
+  <!--- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 </head>
 
 <body id="top">
 
-    <header class="header" data-header>
+  <!--- #HEADER -->
 
-        <div class="overlay" data-overlay></div>
-    
-        <div class="header-top">
-          <div class="container">
-    
-            <a href="tel:+01123456790" class="helpline-box">
-    
-              <!--
-              <div class="icon-box">
-                <ion-icon name="call-outline"></ion-icon>
-              </div>
-    
-              <div class="wrapper">
-                <p class="helpline-title">For Further Inquires :</p>
-    
-                <p class="helpline-number">+977 (123) 4567 90</p>
-              </div>
-              -->
-    
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+61123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+614 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
             </a>
-             <a href="#" class="logo">
-                <img src="./assets/images/logo.svg" alt="Janakpur logo">
-              </a>
-         
-    
-            <div class="header-btn-group">
-    
-              <button class="search-btn" aria-label="Search">
-                <ion-icon name="search"></ion-icon>
-              </button>
-    
-              <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-                <ion-icon name="menu-outline"></ion-icon>
-              </button>
-    
-            </div>
-    
-          </div>
-        </div>
-    
-        <div class="header-bottom">
-          <div class="container">
-    
-            <ul class="social-list">
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-youtube"></ion-icon>
-                </a>
-              </li>
-    
-            </ul>
-    
-            <nav class="navbar" data-navbar>
-    
-              <div class="navbar-top">
-    
-          <!-- <a href="#" class="logo">
-                  <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
-                </a>  --> 
+          </li>
 
-                <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-                  <ion-icon name="close-outline"></ion-icon>
-                </button>
-    
-              </div>
-    
-              <ul class="navbar-list">
-    
-                <li>
-                  <a href="#home" class="navbar-link" data-nav-link>home</a>
-                </li>
-    
-                <li>
-                  <a href="#" class="navbar-link" data-nav-link>about us</a>
-                </li>
-    
-                <li>
-                  <a href="#destination" class="navbar-link" data-nav-link>destination</a>
-                </li>
-    
-                <li>
-                  <a href="#package" class="navbar-link" data-nav-link>packages</a>
-                </li>
-    
-                <li>
-                  <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-                </li>
-    
-                <li>
-                  <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
-                </li>
-    
-              </ul>
-    
-            </nav>
-    
-          
-    
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
           </div>
-        </div>
-    
-      </header>
-<main>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
     <article>
 
-        <!---------- #HERO --------------->
+      <!---------- #heading --------------->
 
       <section class="hero" id="home">
         <div class="container">
 
-          <h2 class="h1 hero-title"> Welcome to Your SISTC Travel Agency </h2>
+          <h2 class="h1 hero-title">Welcome to Your SISTC Travel Agency.</h2>
 
           <p class="hero-text">
             "In this travel agency we make sure to turn your travel fantasies into realities. We are into offering customized travel solutions based on one’s desire and requirement. Whether you are in the mood for a quiet vacation on the shore, a thrilling city trip or exploring the history and culture of the country we guarantee a suitable experience, simple choose your vacation type from below."
           </p>
 
-        
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div>
 
         </div>
       </section>
 
-      <!--- sEARCH AND CALCULATION -->
 
-      <section class="tour-search">
 
-    
 
+
+  
+      <!--- #PACKAGE  -->
+
+      <section class="package" id="package">
         <div class="container">
 
-          <form action="" class="tour-search-form">
+          <p class="section-subtitle">Popular Packeges</p>
 
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Select Destination*</label>
+          <h2 class="h2 section-title"> Find the best rate </h2>
 
-            <!--  <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field"> --> 
-                <select name="destination" id="destination"   class="select-field" required placeholder="Select Destination">
+          <h3 class="section-text"  id="cost-result">
+           
+          </h3>
+          <div class="package-card">
+            <form id="cost-calculation-form">
+  
+                <label for="destination" >Destination:</label>
+                <select id="destination" name="destination" class="form-select">
+                  <option value="paris">Paris, France</option>
+                  <option value="rome">Rome, Italy</option>
+                  <option value="nyc">New York City, USA</option>
+                  <option value="tokyo">Tokyo, Japan</option>
+                  <option value="sydney">Sydney, Australia</option>
                 </select>
-            </div>
+              
+              <br>
 
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
+             
+              <label for="accommodation-type">Accommodation Type:</label>
+              <select id="accommodation-type" name="accommodation-type"  class="form-select">
+                <option value="budget">Budget</option>
+                <option value="mid-range">Mid-Range</option>
+                <option value="luxury">Luxury</option>
+              </select>
+              <br>
+              <input type="number" id="trip-duration" name="trip-duration"  class="form-control" placeholder="Trip Duration (days)">
+              <br>
+              <input type="number" id="num-travelers" name="num-travelers"  class="form-control" placeholder=" Number of Travelers">
+              
+            <br>
+           
+              <button id="calculate-button" class="btn btn-light">Calculate Cost</button>
+            
+            </form>
+          </div>
+          
         </div>
       </section>
 
-      <!-- Popiler destination section-->
+   
+
+
+
+
+      <!------- #POPULAR ------->
 
       <section class="popular" id="destination">
         <div class="container">
 
-        
+          <p class="section-subtitle">Uncover place</p>
+
           <h2 class="h2 section-title">Popular destination</h2>
 
           <p class="section-text">
@@ -229,7 +255,13 @@
 
                 <div class="card-content">
 
-               
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
 
                   <p class="card-subtitle">
                     <a href="#">Nepal</a>
@@ -257,7 +289,13 @@
 
                 <div class="card-content">
 
-                
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
 
                   <p class="card-subtitle">
                     <a href="#">Nepal</a>
@@ -285,7 +323,13 @@
 
                 <div class="card-content">
 
-           
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
 
                   <p class="card-subtitle">
                     <a href="#">Nepal</a>
@@ -306,99 +350,109 @@
 
           </ul>
 
-          <button class="btn btn-primary">More destintion</button>
+  
 
         </div>
       </section>
 
- <!--- #GALLERY  -->
 
- <section class="gallery" id="gallery">
-  <div class="container">
 
-    <p class="section-subtitle">Photo Gallery</p>
+      <!--- #GALLERY  -->
 
-    <h2 class="h2 section-title">Photo's From Travellers</h2>
+      <section class="gallery" id="gallery">
+        <div class="container">
 
-    <p class="section-text">
-      "Wanderlust Diaries: A Glimpse into the World Through Traveler Photos"
-      
-    </p>
+          <p class="section-subtitle">Photo Gallery</p>
 
-    <ul class="gallery-list">
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
 
-      <li class="gallery-item">
-        <figure class="gallery-image">
-          <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
-        </figure>
-      </li>
+          <p class="section-text">
+            "Wanderlust Diaries: A Glimpse into the World Through Traveler Photos"
+            
+          </p>
 
-      <li class="gallery-item">
-        <figure class="gallery-image">
-          <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
-        </figure>
-      </li>
+          <ul class="gallery-list">
 
-      <li class="gallery-item">
-        <figure class="gallery-image">
-          <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
-        </figure>
-      </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
 
-      <li class="gallery-item">
-        <figure class="gallery-image">
-          <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
-        </figure>
-      </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
 
-      <li class="gallery-item">
-        <figure class="gallery-image">
-          <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
-        </figure>
-      </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
 
-    </ul>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
 
-  </div>
-</section>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--- #CTA  -->
+
+      <section class="cta" id="contact">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+              <form>
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone" class="form-label">Phone</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                  </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+          </div>
+      </div>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
 
 
   <!--- #FOOTER  -->
 
   <footer class="footer">
 
-    <div class="footer-top">
-      <div class="container">
 
-        <div class="footer-brand">
-
-
-        </div>
-
-    
-
-        <div class="footer-form">
-
-          <p class="form-text">
-            Feel Free to cntact us, Just send a Email !!
-          </p>
-
-          <form action="" class="form-wrapper">
-           
-            
-              <input type="text" name="tName" class="input-field" placeholder="Enter Your Name Here" required>
-              <input type="text" name="Message" class="input-field" placeholder="Type Your Message Here" required>
-              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
-            
-            
-            <button type="submit" class="btn btn-secondary">Contect Us</button>
-
-          </form>
-
-        </div>
-
-      </div>
-    </div>
 
     <div class="footer-bottom">
       <div class="container">
@@ -430,33 +484,26 @@
 
 
 
-    </article>
-</main>
+
+
+  <!--- #GO TO TOP  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
 
 
 
-<script>
-  const priceList = ["Sri Lanka","India","Singapora","Thailand","Bali"]
-  debugger;
-  const priceSelect = document.querySelector("#destination");
 
-  // Task 1: Use a for loop to add options to the price select element.
-for (let index = 0; index < priceList.length; index++) {
-      const Pricelist = document.createElement("option");
-      Pricelist.value = priceList[index];
-      Pricelist.text = `$${priceList[index]}`;
-      priceSelect.appendChild(Pricelist); 
-  } 
 
-  // Task 2: Complete this function to calculate the total price.
-  function calculateTotal() {
-      const selectedPrice = priceSelect.value;
-      const quantity = document.querySelector("#quantity").value;
-      const total = selectedPrice * quantity;
-      document.querySelector("#result").innerHTML = `Total: $${total}`;
-  }
-</script>
+  <!--- custom js link  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="cost-calculation.js"></script>
+
+  <!--- ionicon link  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
-
+</html>
